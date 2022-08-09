@@ -19,18 +19,18 @@ pyautogui.FAILSAFE = True
 
 #--Программа
 
-# size = (pyautogui.size())
-# xMax = (size[0])
-# yMax = (size[1])
-# print(f"Разрешение вашего экрана: {xMax} на {yMax} пикселей")
+size = (pyautogui.size())
+xMax = (size[0])
+yMax = (size[1])
+print(f"Разрешение вашего экрана: {xMax} на {yMax} пикселей")
 
-# x1 = 0
-# y1 = 0
-# x2 = 500
-# y2 = 500
-# screenshotCoordinates = ( x1, y1, x2, y2 )
+x1 = 0
+y1 = 0
+x2 = 500
+y2 = 500
+screenshotCoordinates = ( x1, y1, x2, y2 )
   
-# im2 = pyautogui.screenshot('hello world.png',region=(screenshotCoordinates))
+im2 = pyautogui.screenshot('hello.png',region=(screenshotCoordinates))
 
 # print('Press Ctrl-C to quit.')
 # try:
